@@ -1,0 +1,12 @@
+name: henv
+version: '0.1.0'
+author: Isham <mahajan.isham@gmail.com
+about: Setup your hyper environment for hammerspoon!
+args:
+  - refresh:
+      short: r
+      long: refresh
+      help: Refreshes the environment after editing config file
+  - ENVIRONMENT:
+      help: Sets the environment file to use
+      index: 1
